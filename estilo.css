@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	font-family: Arial;
+	color: #c4c4c4;
+	background-color: black;
+}
+::-webkit-scrollbar {
+	width: 6px;               /* width of the entire scrollbar */
+	height: 6px;
+  }
+  
+ ::-webkit-scrollbar-track {
+	background: black;        /* color of the tracking area */
+  }
+  
+ ::-webkit-scrollbar-thumb {
+	background-color: #812023;    /* color of the scroll thumb */
+	border-radius: 20px;     /* roundness of the scroll thumb */
+	border: 1px solid #171717;  /* creates padding around scroll thumb */
+  }
+  ::-webkit-scrollbar-corner{
+	background: black;
+  }
+header{
+	width: 100%;
+	height: 150px;
+	background-color: black;
+	border-bottom: 1px solid #171717;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	border-top: 1px solid #171717;
+	margin-top: 25px;
+}
+#resumo-serie{
+	width: 700px;
+	float: left;
+	text-align: center;
+	margin-bottom: 25px;
+}
+#img-logo{
+	width: 350px;
+	height: 100px;
+	margin-top: 25px;
+	margin-left: 35%;
+}
+.container{
+	background-color: black;
+	
+}
+.personagens{
+	border: 1px solid #171717;
+	border-radius: 5px;
+	padding: 20px;
+	width: 900px;
+	height: 350px;
+	margin: auto;
+	margin-top: 25px;
+}
+.img-personagens{
+	width: 250px;
+	height: 350px;
+	border: 1px solid #171717;
+	border-radius: 10px;
+	object-fit: cover;
+}
+.elementos{
+	width: 580px;
+	margin-left: 280px;
+	margin-top: -350px;
+}
+ul{
+	list-style: none;
+	margin-left: -40px;
+}
+b{
+	color: #565657;
+}
+.nome-personagens{
+	color: #812023;
+	font-size: 26px;
+}
